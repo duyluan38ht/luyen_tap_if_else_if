@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<script>
+    let Username = prompt("Nhập tên đăng nhập vào đây", "");
+
+    if (Username == 'Admin') {
+        alert("Wellcom");
+    } else if (Username == "") {
+        alert("Canceled");
+    } else {
+        alert("I don't kown you");
+    }
+    let password = +prompt("nhập mật khẩu vào đây", "");
+    if (password == 'TheMaster') {
+        alert("wellcom");
+    } else if (password == "") {
+        alert("Canceled");
+    } else alert("I don't know you");
+</script>
+</body>
+</html>
